@@ -16,7 +16,7 @@
         function checkPassword() {
             const password = document.getElementById('passwordInput').value;
 
-            if (password === '140126') {
+            if (password === 'green') {
 
                 document.getElementById('loginScreen').style.display = 'none';
                 document.getElementById('mainContent').style.display = 'block';
